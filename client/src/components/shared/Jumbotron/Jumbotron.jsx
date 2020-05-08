@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "./Jumbotron.css";
 
 const Jumbotron = () => {
   return (

@@ -5,8 +5,18 @@ class Saved extends Component {
   render() {
     return (
       <Fragment>
-        <Jumbotron />
-        <h1>Saved Page</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <Jumbotron />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <h1>Saved Page</h1>
+            </div>
+          </div>
+        </div>
       </Fragment>
     );
   }
