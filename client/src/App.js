@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Search from "./containers/Search";
 import Saved from "./containers/Saved";
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
