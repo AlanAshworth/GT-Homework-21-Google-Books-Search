@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "./Jumbotron.css";
+import "./style.css";
 
 const Jumbotron = () => {
   return (
