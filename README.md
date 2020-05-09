@@ -1,12 +1,12 @@
 # GT-Homework-21-Google-Books-Search
 
-A professional portfolio website showcasing my latest projects.
+A Google Books search application to save and search books.
 
-<!-- ![screenshot](./client/public/assets/Images/screenshot_index.png) -->
+![screenshot](./misc/screenshot_21_google-books-search.png)
 
 ## Description
 
-My portfolio initially built with pure HMTL/CSS, now updated to component-based React JavaScript.
+A React-based Google Books Search app. Application is built with React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. Node, Express and MongoDB is used so that users can save books to review or purchase later.
 
 ## Table of Contents
 
@@ -28,28 +28,36 @@ Install the necessary dependencies in the command line with:
 npm install
 ```
 
-## Usage
-
-Option 1) Go to the provided <a href="https://stark-forest-37093.herokuapp.com/">link</a> to experience the website or,
-
-Option 2) download and install MySQL Server and MySQL Workbench and build your own database to use wth the application. 
-
-If use want to run the app on your own machine, first clone the repository to your system, then follow the above installation step(s), then setup your database for use with the application by copying the `schema.sql` file from the `db` folder and pasting the contents into the MySql Workbench query pane and running the script with the 'lightning bolt' icon. Then copy the contents from the `seeds.sql` file and running those scripts in the workbench query pane.
-
-Ensure that your MySQL root password is set in the `connection.js` file housed in `config` folder.
-
-Run the application in the command line with:
+Initialize database seed with:
 
 ```sh
-node server.js
+npm run seed
 ```
 
-Note: if the above command throws an error, make sure the file is first being targeted by running the command within the root of the project folder.
+Start application with:
 
+```sh
+npm run seed
+```
 
-The following demonstrates general application functionality:
+## Usage
 
-<!-- ![eat-da-burger demo](./public/assets/img/eat-da-burger-demo.gif) -->
+This application features two pages, read the following description for each page:
+  
+  * Saved - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
+
+  * Search - User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
+
+## Design
+
+Below are mockups illustrating the design for each page in the application.
+
+Page - Saved
+![screenshot-Saved](./misc/Saved.png)
+
+Page - Search
+![screenshot-Search](./misc/Search.png)
+
 
 ## Contributing
 
