@@ -48,54 +48,6 @@ function Books() {
     }
   }
 
-  //   return (
-  //     <div className="container">
-  //       <div className="row">
-  //         <div className="col">
-  //           <Jumbotron />
-  //         </div>
-  //       </div>
-  //       <div className="row">
-  //         <div className="col">
-  //           <form className="BookSearch clearfix">
-  //             <Input
-  //               onChange={handleInputChange}
-  //               name="title"
-  //               placeholder="Title (required)"
-  //             />
-  //             <FormBtn
-  //               disabled={!(formObject.author && formObject.title)}
-  //               onClick={handleFormSubmit}
-  //             >
-  //               Submit Book
-  //             </FormBtn>
-  //           </form>
-  //         </div>
-  //       </div>
-  //       <div className="row">
-  //         <div className="col">
-  //           {books.length ? (
-  //             <List>
-  //               {books.map((book) => (
-  //                 <ListItem key={book._id}>
-  //                   <Link to={"/books/" + book._id}>
-  //                     <strong>
-  //                       {book.title} by {book.author}
-  //                     </strong>
-  //                   </Link>
-  //                   <DeleteBtn onClick={() => deleteBook(book._id)} />
-  //                 </ListItem>
-  //               ))}
-  //             </List>
-  //           ) : (
-  //             <h3>No Results to Display</h3>
-  //           )}
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // }
-
   return (
     <div className="container">
       <div className="row">
