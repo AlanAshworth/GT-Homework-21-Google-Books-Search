@@ -2,7 +2,7 @@
 
 A Google Books search application to save and search books.
 
-![screenshot](./misc/screenshot_21_google-books-search.png)
+![screenshot](./misc/homework_21_google-books-search.png)
 
 ## Description
 
